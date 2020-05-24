@@ -18,6 +18,7 @@
 > 与 Java 不同的是，文件名可以不同于类的名称。
  */
 using System;
+
 namespace HelloWorldApplication
 {
     /* 类名为 HelloWorld */
@@ -26,8 +27,37 @@ namespace HelloWorldApplication
         /* main函数 */
         static void Main(string[] args)
         {
-            /* 我的第一个 C# 程序 */
-            Console.WriteLine("Hello World!");
+            string aFriend = "Tiger";
+            Console.WriteLine("Hello World! " + aFriend);
+            Console.WriteLine($"Hello {aFriend} ");
+            Console.WriteLine($"{aFriend} is my name , it has {aFriend.Length} letters.");
+            string greeting = "      Hello World!       ";
+            Console.WriteLine($"[{greeting}]");
+
+            string trimmedGreeting = greeting.TrimStart();
+            Console.WriteLine($"[{trimmedGreeting}]");
+
+            trimmedGreeting = greeting.TrimEnd();
+            Console.WriteLine($"[{trimmedGreeting}]");
+
+            trimmedGreeting = greeting.Trim();
+            Console.WriteLine($"[{trimmedGreeting}]");
+
+            string sayHello = "Hello World!";
+            Console.WriteLine(sayHello);
+            string sayHelloNew = sayHello.Replace("Hello", "Greetings");
+            Console.WriteLine(sayHelloNew);
+            Console.WriteLine(sayHello);
+            Console.WriteLine(sayHello.ToUpper());
+            Console.WriteLine(sayHello.ToLower());
+
+            string songLyrics = "You say goodbye, and I say hello";
+            Console.WriteLine(songLyrics.Contains("goodbye"));
+            Console.WriteLine(songLyrics.Contains("greetings"));
+            Console.WriteLine(songLyrics.StartsWith("goodbye"));
+            Console.WriteLine(songLyrics.EndsWith("greetings"));
+            Console.WriteLine(songLyrics.StartsWith("You"));
+            Console.WriteLine(songLyrics.EndsWith("hello"));
             Console.ReadKey();
         }
     }
