@@ -27,6 +27,7 @@ namespace HelloWorldApplication
         /* main函数 */
         static void Main(string[] args)
         {
+            // String
             string aFriend = "Tiger";
             Console.WriteLine("Hello World! " + aFriend);
             Console.WriteLine($"Hello {aFriend} ");
@@ -58,6 +59,29 @@ namespace HelloWorldApplication
             Console.WriteLine(songLyrics.EndsWith("greetings"));
             Console.WriteLine(songLyrics.StartsWith("You"));
             Console.WriteLine(songLyrics.EndsWith("hello"));
+
+            // Number
+            int a = 5;
+            int b = 4;
+            int c = 2;
+            int d = a + b * c;
+            Console.WriteLine(d);
+
+            d = (a + b) / c;
+            Console.WriteLine(d);
+
+            d = (a + b) / c;
+            int e = (a + b) % c;
+            Console.WriteLine($"quotient: {d}");
+            Console.WriteLine($"remainder: {e}");
+
+            int max = int.MaxValue;
+            int min = int.MinValue;
+            Console.WriteLine($"The range of integers is {min} to {max}");
+
+            int what = max + 3;
+            Console.WriteLine($"An example of overflow: {what}");
+
             Console.ReadKey();
         }
     }
