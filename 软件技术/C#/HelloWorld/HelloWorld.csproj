@@ -36,7 +36,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StringTest.cs" />
+    <Compile Include="ListOp.cs" />
+    <Compile Include="LogicOp.cs" />
+    <Compile Include="DataOp.cs" />
     <Compile Include="HelloWorld.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -18,6 +18,9 @@
 > 与 Java 不同的是，文件名可以不同于类的名称。
  */
 using System;
+using DataOperation;
+using LogicOperation;
+using ListOperation;
 
 namespace HelloWorldApplication
 {
@@ -27,60 +30,15 @@ namespace HelloWorldApplication
         /* main函数 */
         static void Main(string[] args)
         {
-            // String
-            string aFriend = "Tiger";
-            Console.WriteLine("Hello World! " + aFriend);
-            Console.WriteLine($"Hello {aFriend} ");
-            Console.WriteLine($"{aFriend} is my name , it has {aFriend.Length} letters.");
-            string greeting = "      Hello World!       ";
-            Console.WriteLine($"[{greeting}]");
+            DataOp dataOp = new DataOp();
+            // dataOp.Demo();
 
-            string trimmedGreeting = greeting.TrimStart();
-            Console.WriteLine($"[{trimmedGreeting}]");
+            LogicOp logicOp = new LogicOp();
+            logicOp.DemoBranch();
+            logicOp.DemoLoop();
 
-            trimmedGreeting = greeting.TrimEnd();
-            Console.WriteLine($"[{trimmedGreeting}]");
-
-            trimmedGreeting = greeting.Trim();
-            Console.WriteLine($"[{trimmedGreeting}]");
-
-            string sayHello = "Hello World!";
-            Console.WriteLine(sayHello);
-            string sayHelloNew = sayHello.Replace("Hello", "Greetings");
-            Console.WriteLine(sayHelloNew);
-            Console.WriteLine(sayHello);
-            Console.WriteLine(sayHello.ToUpper());
-            Console.WriteLine(sayHello.ToLower());
-
-            string songLyrics = "You say goodbye, and I say hello";
-            Console.WriteLine(songLyrics.Contains("goodbye"));
-            Console.WriteLine(songLyrics.Contains("greetings"));
-            Console.WriteLine(songLyrics.StartsWith("goodbye"));
-            Console.WriteLine(songLyrics.EndsWith("greetings"));
-            Console.WriteLine(songLyrics.StartsWith("You"));
-            Console.WriteLine(songLyrics.EndsWith("hello"));
-
-            // Number
-            int a = 5;
-            int b = 4;
-            int c = 2;
-            int d = a + b * c;
-            Console.WriteLine(d);
-
-            d = (a + b) / c;
-            Console.WriteLine(d);
-
-            d = (a + b) / c;
-            int e = (a + b) % c;
-            Console.WriteLine($"quotient: {d}");
-            Console.WriteLine($"remainder: {e}");
-
-            int max = int.MaxValue;
-            int min = int.MinValue;
-            Console.WriteLine($"The range of integers is {min} to {max}");
-
-            int what = max + 3;
-            Console.WriteLine($"An example of overflow: {what}");
+            ListOp listOp = new ListOp();
+            listOp.Demo();
 
             Console.ReadKey();
         }
