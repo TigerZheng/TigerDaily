@@ -30,12 +30,12 @@ namespace HelloWorldApplication
         /* main函数 */
         static void Main(string[] args)
         {
-            DataOp dataOp = new DataOp();
+            // DataOp dataOp = new DataOp();
             // dataOp.Demo();
 
-            LogicOp logicOp = new LogicOp();
-            logicOp.DemoBranch();
-            logicOp.DemoLoop();
+            // LogicOp logicOp = new LogicOp();
+            // logicOp.DemoBranch();
+            // logicOp.DemoLoop();
 
             ListOp listOp = new ListOp();
             listOp.Demo();
