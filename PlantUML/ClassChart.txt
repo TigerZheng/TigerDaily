@@ -1,0 +1,5 @@
+@startuml
+title 类图
+note “类图部分符号示意” as comment
+Alice ->Bob:test
+@enduml

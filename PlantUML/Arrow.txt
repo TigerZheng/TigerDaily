@@ -1,0 +1,19 @@
+@startuml
+scale 1
+hsing -> amber
+hsing ->> amber
+hsing <-> amber
+hsing ->o amber
+hsing --> amber
+hsing -/ amber
+hsing -\ amber
+hsing -// amber
+hsing -\\ amber
+hsing //-- amber
+hsing ->x amber
+hsing -[#red]> amber
+amber -[#pink]-> hsing
+hsing -[#blue]// amber
+a -> b : To request
+b --> a : To response
+@enduml
