@@ -1,5 +1,32 @@
 @startuml
-title 类图
-note “类图部分符号示意” as comment
-Alice ->Bob:test
+
+class Object << general >>
+Object <|--- ArrayList
+note top of Object : In java, every class\nextends this one.
+
+note "This is a floating note" as N0
+
+note as N1
+  This note is <u>also</u>
+  <b><color:royalBlue>on several</color>
+  <s>words</s> lines
+  And this is hosted by <img:sourceforge.jpg>
+end note
+
+note "This note is connected\nto several objects." as N2
+Object .. N2
+N2 .. ArrayList
+
+class Foo
+note left: On last defined class
+
+
+note top of Object
+  In java, <size:18>every</size> <u>class</u>
+  <b>extends</b>
+  <i>this</i> one.
+end note
+
+
+
 @enduml
