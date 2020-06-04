@@ -24,7 +24,12 @@ namespace MyFirstForm
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("Welcome!");
+            label1.Text = "Hello World!";
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Good-bye!";
         }
     }
 }
