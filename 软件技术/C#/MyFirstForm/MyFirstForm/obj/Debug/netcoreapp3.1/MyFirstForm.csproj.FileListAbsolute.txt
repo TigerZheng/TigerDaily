@@ -1,0 +1,15 @@
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\bin\Debug\netcoreapp3.1\MyFirstForm.exe
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\bin\Debug\netcoreapp3.1\MyFirstForm.deps.json
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\bin\Debug\netcoreapp3.1\MyFirstForm.runtimeconfig.json
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\bin\Debug\netcoreapp3.1\MyFirstForm.runtimeconfig.dev.json
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\bin\Debug\netcoreapp3.1\MyFirstForm.dll
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\bin\Debug\netcoreapp3.1\MyFirstForm.pdb
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\obj\Debug\netcoreapp3.1\MyFirstForm.csprojAssemblyReference.cache
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\obj\Debug\netcoreapp3.1\MyFirstForm.AssemblyInfoInputs.cache
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\obj\Debug\netcoreapp3.1\MyFirstForm.AssemblyInfo.cs
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\obj\Debug\netcoreapp3.1\MyFirstForm.csproj.CoreCompileInputs.cache
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\obj\Debug\netcoreapp3.1\MyFirstForm.dll
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\obj\Debug\netcoreapp3.1\MyFirstForm.pdb
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\obj\Debug\netcoreapp3.1\MyFirstForm.genruntimeconfig.cache
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\obj\Debug\netcoreapp3.1\MyFirstForm.Form1.resources
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\obj\Debug\netcoreapp3.1\MyFirstForm.csproj.GenerateResource.cache
