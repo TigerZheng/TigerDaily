@@ -13,3 +13,4 @@ C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C
 C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\obj\Debug\netcoreapp3.1\MyFirstForm.genruntimeconfig.cache
 C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\obj\Debug\netcoreapp3.1\MyFirstForm.Form1.resources
 C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\obj\Debug\netcoreapp3.1\MyFirstForm.csproj.GenerateResource.cache
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C#\MyFirstForm\MyFirstForm\obj\Debug\netcoreapp3.1\MyFirstForm.Properties.Resources.resources
