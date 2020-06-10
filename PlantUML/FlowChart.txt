@@ -1,0 +1,34 @@
+@startuml
+
+title 流程图
+
+(*) --> "步骤1处理"
+--> "步骤2处理"
+if "条件1判断" then
+    ->[true] "条件1成立时执行的动作"
+    if "分支条件2判断" then
+        ->[no] "条件2不成立时执行的动作"
+        -> === 中间流程汇总点1 ===
+    else
+        -->[yes] === 中间流程汇总点1 ===
+    endif
+    if "分支条件3判断" then
+        -->[yes] "分支条件3成立时执行的动作"
+        --> "Page.onRender ()" as render
+        --> === REDIRECT_CHECK ===
+    else
+        -->[no] "分支条件3不成立时的动作"
+        --> render
+    endif
+else
+    -->[false] === REDIRECT_CHECK ===
+endif
+
+if "条件4判断" then
+    ->[yes] "条件4成立时执行的动作"
+    --> "流程最后结点"
+else
+endif
+--> "流程最后结点"
+-->(*)
+@enduml
