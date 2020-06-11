@@ -121,7 +121,17 @@
 
 ![image-20200504092433321](C:\Users\zheng\AppData\Roaming\Typora\typora-user-images\image-20200504092433321.png)
 
+# FAQ
 
+## Q:HTML Help 报错
 
+> Error: When enabling GENERATE_HTMLHELP the search engine (SEARCHENGINE) should be disabled. I'll do it for you.
+>
+> warning: The selected output language "chinese" has not been updated
+>
+> since release 1.8.2. As a result some sentences may appear in English.
 
+A：
+
+> 解决：把HTML里面的SEARCHENGINE设置为NO
 
