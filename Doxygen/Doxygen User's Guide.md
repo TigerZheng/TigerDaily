@@ -101,7 +101,7 @@
 >
 > ![img](https://upload-images.jianshu.io/upload_images/14066340-746735e1cbac4391.png)
 
-# 流程图生成工具
+# Dot配置
 
 > [官网](https://graphviz.gitlab.io/)下载Graphviz压缩包到本地，解压缩后存储到任意位置即可，然后自行添加环境变量，如下图所示：
 >
