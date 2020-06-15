@@ -1,0 +1,2 @@
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C++\1.HelloWord_Form\HelloWorld\Debug\HelloWorld.exe
+C:\MyComputer\14.Git&SVN&Doxygen&Qt&Tessy\1.Git\GitHub\TigerDaily\软件技术\C++\1.HelloWord_Form\HelloWorld\Debug\HelloWorld.pdb
