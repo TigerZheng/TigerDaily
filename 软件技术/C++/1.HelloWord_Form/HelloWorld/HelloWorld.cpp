@@ -9,8 +9,8 @@ class Line
 public:
     int getLength(void);
     Line(int len);             // 简单的构造函数
-    Line(const Line& obj);      // 拷贝构造函数
-    ~Line();                     // 析构函数
+    Line(const Line& obj);     // 拷贝构造函数
+    ~Line();                   // 析构函数
 
 private:
     int* ptr;
@@ -72,11 +72,45 @@ private:
     double height;     // Height of a box
 };
 
+// 基类
+class Shape
+{
+public:
+    void setWidth(int w)
+    {
+        width = w;
+    }
+    void setHeight(int h)
+    {
+        height = h;
+    }
+protected:
+    int width;
+    int height;
+};
+
+// 派生类
+class Rectangle : public Shape
+{
+public:
+    int getArea()
+    {
+        return (width * height);
+    }
+};
+
 int main()
 {
     Line line(10);
     Box Box1(3.3, 1.2, 1.5);    // Declare box1
     Box Box2(8.5, 6.0, 2.0);    // Declare box2
+    Rectangle Rect;
+
+    Rect.setWidth(5);
+    Rect.setHeight(7);
+
+    // 输出对象的面积
+    cout << "Total area: " << Rect.getArea() << endl;
 
     display(line);
 
@@ -88,6 +122,7 @@ int main()
     {
         cout << "Box2 is equal to or larger than Box1" << endl;
     }
+
 
     cout << "Hello World!\n";
 
