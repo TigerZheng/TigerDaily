@@ -1,2 +1,0 @@
-include ':automotive'
-rootProject.name = "My Application"
